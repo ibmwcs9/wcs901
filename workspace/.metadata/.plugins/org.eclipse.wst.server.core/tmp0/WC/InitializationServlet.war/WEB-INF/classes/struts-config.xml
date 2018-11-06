@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN" "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <package extends="struts-default" name="wcs-init" namespace="/">
+        <default-interceptor-ref name="defaultStack"/>    
+		<default-action-ref name="JspView" />		
+        <global-results>
+            <result name="BusyView">/busy.jsp</result> 
+			<result name="TerminateView">/terminate.jsp</result> 
+			<result name="TransferredView">/transfer.jsp</result> 
+			<result name="DuplicateRequestView">/duplicateRequest.jsp</result> 
+			<result name="GenericSystemError">/GenericSystemError.jsp</result> 
+			<result name="GenericApplicationError">/GenericApplicationError.jsp</result>
+            <result name="error">/error.jsp</result>
+		</global-results>
+        <global-allowed-methods>regex:.*</global-allowed-methods>
+        <global-exception-mappings> 
+			<exception-mapping exception="java.lang.Exception" result="error"/> 
+		</global-exception-mappings>
+		<action class="com.ibm.commerce.struts.v2.BaseAction" name="ActivityCleanUp">
+            <param name="authenticate">0:0</param>
+            <param name="csrfProtected">0:0</param>
+            <param name="https">0:1</param>
+            <param name="parameter">com.ibm.commerce.component.contextservice.commands.ActivityCleanUpCmd</param>
+        </action>		
+		<action class="com.ibm.commerce.struts.v2.BaseAction" name="CleanECEvent">
+            <param name="authenticate">0:0</param>
+            <param name="csrfProtected">0:0</param>
+            <param name="https">0:1</param>
+            <param name="parameter">com.ibm.commerce.event.impl.commands.CleanECEventCmd</param>
+        </action>     
+		<action class="com.ibm.commerce.struts.v2.BaseAction" name="EventProcessor">
+            <param name="authenticate">0:0</param>
+            <param name="csrfProtected">0:0</param>
+            <param name="https">0:1</param>
+            <param name="parameter">com.ibm.commerce.bi.events.EventProcessorCmd</param>
+        </action>       
+		<action class="com.ibm.commerce.struts.v2.BaseAction" name="JspView">
+			<param name="credentialsAccepted">P</param>
+            <result name="JspView">
+                <param name="location">/error404.jsp</param>             
+            </result>
+        </action>
+		<action class="com.ibm.commerce.struts.v2.BaseAction" name="RaiseECEvent">
+            <param name="authenticate">0:0</param>
+            <param name="csrfProtected">0:0</param>
+            <param name="https">0:1</param>
+            <param name="parameter">com.ibm.commerce.event.impl.commands.RaiseECEventCmd</param>
+        </action>
+        <action class="com.ibm.commerce.struts.v2.BaseAction" name="RedirectView">
+            <param name="https">0:0</param>
+            <result name="RedirectView">
+                <param name="location">/</param>
+                <param name="redirect">true</param>
+            </result>
+        </action>
+        <action class="com.ibm.commerce.struts.v2.BaseAction" name="CustomJob">
+            <param name="authenticate">0:0</param>
+            <param name="csrfProtected">0:0</param>
+            <param name="https">0:1</param>
+            <param name="parameter">com.ibm.commerce.scheduler.commands.CustomJobCmd</param>
+        </action>
+	</package>
+</struts>

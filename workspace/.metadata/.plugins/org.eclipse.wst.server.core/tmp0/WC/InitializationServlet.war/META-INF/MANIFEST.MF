@@ -1,0 +1,77 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.9.7
+Created-By: pwa6480sr3fp11-20160817_02 (SR3 FP11) (IBM Corporation)
+Class-Path: Analytics-BusinessIntelligenceLogic.jar Catalog-Client.jar
+  Catalog-DataObjects.jar Catalog-ProductManagementData.jar Catalog-Pr
+ oductManagementLogic.jar Catalog-Server.jar CatalogServicesJMSInterfa
+ ce.jar Celadon-Common-DataObjects.jar Celadon-Common-Utils.jar Celado
+ n-Core-Client.jar Celadon-Core-DataObjects.jar Celadon-Core-Server.ja
+ r ChinaStoreServerLogic.jar ContentManagement-WorkspaceFlowData.jar C
+ ontentManagement-WorkspaceFlowLogic.jar Content-Server.jar Contract-C
+ lient.jar Contract-DataObjects.jar Contract-Server.jar ContractServic
+ esJMSInterface.jar Enablement-BaseComponentsData.jar Enablement-BaseC
+ omponentsLogic.jar Enablement-BaseComponentsLogicWAS6.jar Enablement-
+ BusinessContextEngineAdvancedData.jar Enablement-BusinessContextEngin
+ eAdvancedInterface.jar Enablement-BusinessContextEngineAdvancedLogic.
+ jar Enablement-BusinessContextEngineData.jar Enablement-BusinessConte
+ xtEngineInterface.jar Enablement-BusinessContextEngineLogic.jar Enabl
+ ement-IntegrationData.jar Enablement-IntegrationLogic.jar Enablement-
+ IntegrationLogicWAS6.jar Enablement-JCACrossWorldsConnector.rar Enabl
+ ement-JCAEMailConnector.rar Enablement-JCAEWGConnector.rar Enablement
+ -JCAFileConnector.rar Enablement-JCAHTTP-WSConnector.rar Enablement-J
+ CAHTTPConnector.rar Enablement-JCAJMS-WSConnector.rar Enablement-JCAJ
+ MSConnector.rar Enablement-JCAKickAppsConnector.rar Enablement-JCASam
+ pleConnector.rar Enablement-RelationshipManagementData.jar Enablement
+ -RelationshipManagementLogic.jar Enablement-SDO.jar Enablement-Securi
+ tyInterface.jar Enablement-StaticFileLoaderLogic.jar Enablement-Stati
+ cFilePublishLogic.jar Enablement-StrutsBaseLogic.jar Enablement-Tickl
+ erData.jar Enablement-TicklerLogic.jar Foundation-Core.jar Foundation
+ -DataObjects.jar Foundation-DataLoad.jar Foundation-Extension.jar Fou
+ ndation-Samples.jar Foundation-Server.jar Foundation-DataImport.jar S
+ earch-IndexSetup.jar Search-Client.jar Search-Server.jar GiftRegistry
+ -BaseComponentData.jar GiftRegistry-BaseComponentLogic.jar GiftRegist
+ ry-InfrastructureLogic.jar GiftRegistry-OrderIntegrationData.jar Gift
+ Registry-OrderIntegrationLogic.jar GiftCenter-DataObjects.jar Infrast
+ ructure-Client.jar Infrastructure-DataObjects.jar Infrastructure-Serv
+ er.jar InfrastructureServicesJMSInterface.jar LOBTools-Core.jar Locat
+ ion-Client.jar Location-DataObjects.jar Location-Server.jar Marketing
+ -CampaignsAndScenarioMarketingData.jar Marketing-CampaignsAndScenario
+ MarketingLogic.jar Marketing-Client.jar Marketing-CustomerProfilingAn
+ dSegmentationLogic.jar Marketing-DataObjects.jar Marketing-Experiment
+ ationManagementData.jar Marketing-ExperimentationManagementLogic.jar 
+ Marketing-Server.jar MarketingServicesJMSInterface.jar Member-Client.
+ jar Member-DataObjects.jar Member-MemberManagementData.jar Member-Mem
+ berManagementLogic.jar Member-Server.jar MemberServicesJMSInterface.j
+ ar Merchandising-PromotionsAndDiscountsData.jar Merchandising-Promoti
+ onsAndDiscountsLogic.jar Order-Client.jar Order-DataObjects.jar Order
+ -OrderCaptureData.jar Order-OrderCaptureLogic.jar Order-OrderManageme
+ ntData.jar Order-OrderManagementLogic.jar Order-Server.jar OrderServi
+ cesJMSInterface.jar Payments-EDP-Common.jar Payments-EDP-Data.jar Pay
+ ments-Plugin-Controller.jar Payments-Plugin-LOC.jar Payments-Plugin-S
+ impleOffline.jar Payments-Plugin-WCPayments.jar Payments-Plugin.jar P
+ romotion-Client.jar Promotion-DataObjects.jar Promotion-Server.jar Pr
+ omotionServicesJMSInterface.jar SEO-BaseComponentLogic.jar Trading-Au
+ ctionsAndRFQsData.jar Trading-AuctionsAndRFQsLogic.jar WebSphereComme
+ rceServerExtensionsData.jar WebSphereCommerceServerExtensionsLogic.ja
+ r lib/LMRecommender.jar lib/commons-beanutils.jar lib/commons-collect
+ ions.jar lib/commons-digester.jar lib/commons-fileupload.jar lib/comm
+ ons-jxpath-1.2.jar lib/commons-lang.jar lib/commons-logging.jar lib/c
+ ommons-validator.jar lib/feedbackilm.jar lib/feedbacklm.jar lib/icu4j
+ .zip lib/jakarta-oro.jar lib/jtopen.jar lib/likeminds.jar lib/loader/
+ DB2Load.zip lib/loader/dbconnect.zip lib/loader/DTDGenerator.zip lib/
+ loader/IdResGen.zip lib/loader/Logger.zip lib/loader/MassExtract.zip 
+ lib/loader/MassLoader.zip lib/loader/PropGen.zip lib/loader/SAFServ.z
+ ip lib/loader/TextTransformer.zip lib/loader/WCALogger.zip lib/loader
+ /WCMCommon.zip lib/loader/XMLTransformer.zip lib/payment/eTillxml4j20
+ 9.jar lib/payment/etillCal.zip lib/struts.jar lib/wcslm.jar lib/wmm.e
+ jb.jar lib/wmm.jar lib/wmmclient.jar lib/wpcpruntime.jar lib/wpcprunt
+ imecommon.jar lib/xsdbeans.jar lib/xss4j.jar lib/solr-core-4.3.0.jar 
+ lib/solr-solrj-4.3.0.jar lib/commons-codec-1.7.jar lib/commons-httpcl
+ ient-3.1.jar lib/httpclient-4.2.3.jar lib/httpcore-4.2.2.jar lib/ibm-
+ wink-jaxrs-1.0.0.jar lib/jsr311-api-1.0.jar lib/slf4j-api-1.6.6.jar l
+ ib/slf4j-jdk14-1.6.4.jar properties xml Price-Server.jar GiftCenter-C
+ lient.jar GiftCenter-Server.jar SocialCommerce-Thirdparty.jar Subscri
+ ption-Client.jar Subscription-DataObjects.jar Subscription-Server.jar
+  ILogJRulesLogic.jar PageLayout-Client.jar PageLayout-DataObjects.jar
+  PageLayout-Server.jar Enablement-Struts2Logic.jar
+

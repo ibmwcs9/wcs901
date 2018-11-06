@@ -1,0 +1,1 @@
+Place properties files containing messages in this directory.

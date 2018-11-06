@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.9.7
+Created-By: pwa6480sr3fp11-20160817_02 (SR3 FP11) (IBM Corporation)
+Class-Path: Enablement-BaseComponentsLogic.jar Enablement-BusinessCont
+ extEngineAdvancedLogic.jar
+
